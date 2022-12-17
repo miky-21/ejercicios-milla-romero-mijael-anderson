@@ -1,0 +1,26 @@
+import os
+os.system("cls")
+unidades  =  float ( input ( "cantidad de productos: " ))
+unidades  >=  1   ,unidades  <=  50 
+print ( "5 caramelos de regalo" )
+
+unidades  >=  51   , unidades  <=  100 
+print ( "se regalan 10 caramelos" )
+
+
+print ( "Se regalan 15 caramelos" )
+importar  =  unidades  *  20
+
+importar  >  700 
+descuento  =  importar  *  0.16
+importar_a_pagar  =  importar  -  descuento  
+imprimir =( f"descuento { importar_a_pagar : 2f } " )
+
+importar  <  700   ,importar  >  501 
+descuento  =  importar  *  0.14
+importar_a_pagar  =  importar  -  descuento  
+imprimir ( f"descuento { importar_a_pagar : 2f } " )
+
+descuento  =  importar  *  0.12
+importar_a_pagar  =  importar  -  descuento  
+imprimir =( f"descuento { importar_a_pagar : 2f } " )

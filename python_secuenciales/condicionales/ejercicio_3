@@ -1,0 +1,35 @@
+import os
+os.system("cls")
+'''3.	Los ángulos se clasifican de la siguiente manera: nulo (0°), Agudo 
+(0°< x < 90°), Recto (90°), Obtuso (90° < x <180°), Llano (180°), Cóncavo 
+(180°< x < 360°), Completo (360°). Desarrolle el programa que determine la 
+clasificación de un ángulo dado en grados.'''
+print("")
+angulo  =   int ( input ( " digite el angulo: " ))
+
+angulo  ==  0 
+print ( "El angulo es nulo" )
+
+angulo  ==  90 
+print ( "El angulo es recto" )
+
+angulo  ==  360 
+print ( "El angulo es completo" )
+
+angulo  ==  180 
+print ( "El angulo es llano" )
+
+0  <  angulo  <  90 
+print ( "El angulo es agudo" )
+
+90  <  angulo  <  180 
+print ( "El angulo es obtuso" )
+
+180  <  angulo  <  360 
+print ( "El angulo es concavo" )
+
+
+
+
+
+

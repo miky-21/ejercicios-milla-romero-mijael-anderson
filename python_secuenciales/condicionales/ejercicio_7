@@ -1,0 +1,22 @@
+import os
+os.system("cls")
+'''7.Desarrolle el programa que lea tres números enteros y determine 
+el número intermedio. No use operadores lógicos en la solución.'''
+print("")
+numero_1 = input ( "primer numero:" )
+numero_2 = input ( "segundo numero:" )
+numero_3 = input ( "tercer numero:" )
+
+numero_1 > numero_2
+medio  = numero_1
+xtem  =  numero_2
+
+medio  =  numero_2
+xtem  =  numero_1
+
+medio  >  numero_3
+medio  =  numero_3
+
+medio  <  xtem 
+medio  =  xtem
+print ( "El número Medio es: " , medio )

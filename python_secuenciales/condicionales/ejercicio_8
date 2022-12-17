@@ -1,0 +1,24 @@
+import os
+os.system("cls")
+'''8.Un estudiante recibe una propina mensual S/. 20. El estudiante rinde 
+mensualmente tres exámenes. Su papá ha decidido incentivarlo dándole una propina 
+adicional de S/. 5 por cada examen aprobado. Desarrolle el programa que determine 
+el monto total de la propina.'''
+
+examen1 = int ( input ( "Examen 1:" ))
+examen2 = int ( input ( "Examen 2:" ))
+examen3 = int ( input ( "Examen 3:" ))
+
+propina = 20
+
+n1=( examen1 > 13 ), propina+ 5
+n2=( examen2 > 13 ), propina+ 5
+n3=( examen3 > 13 ), propina+ 5
+
+adicional=n1+n2+n3
+
+print ( "Valor de la propina" , propina+adicional )
+
+
+
+
