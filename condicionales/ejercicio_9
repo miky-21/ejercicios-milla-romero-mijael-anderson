@@ -1,0 +1,36 @@
+import os
+os.system("cls")
+'''9.	Una tienda ofrece un porcentaje de descuento sobre el importe 
+de la compra de los cuatro tipos de productos cuyos códigos, precios 
+unitarios y descuentos se muestran en las siguientes tablas. Desarrolle 
+el programa que determine el importe de la compra, el descuento y el total 
+a pagar por la compra de cierta cantidad de unidades de un mismo tipo de producto.'''
+
+codigo =float(input("Escribe el valor del codigo:"))
+unidades_adquiridas = float(input ("Ingrese el valor de las unidades adquiridas:"))
+#proceso
+importar_del_descuento=0
+precio_unitario=0
+codigo==101
+precio_unitario=17
+codigo==102
+precio_unitario=25
+codigo==103
+precio_unitario=16 
+codigo==104
+precio_unitario=27  
+importe_de_la_compra=precio_unitario*unidades_adquiridas
+unidades_adquiridas>=1 , unidades_adquiridas<=10
+import_del_descuento=importe_de_la_compra*0.05
+unidades_adquiridas>=11 , unidades_adquiridas<=20
+importar_del_descuento=importe_de_la_compra*0.08
+unidades_adquiridas>=21 , unidades_adquiridas<=30
+import_del_descuento =importe_de_la_compra*0.1
+unidades_adquiridas>=31
+import_del_descuento=importe_de_la_compra*0.13
+  #salida  
+importe_a_pagar=importe_de_la_compra-import_del_descuento
+print ('Valor de importar a pagar: ' + repr (importe_a_pagar))
+print('Valor de importacion de la compra: ' + repr(importe_de_la_compra))
+print('Valor de importacion del descuento: ' + repr(import_del_descuento))
+print ('Valor de precio unitario: ' + repr (precio_unitario))
